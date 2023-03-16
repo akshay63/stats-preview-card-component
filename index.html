@@ -12,35 +12,73 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
-  <body class="flex max-lg:flex-col flex-1 justify-center items-center">
-    <div class="stats bg-stats-cardBg rounded-xl flex">
-      <div class="stats__content">
-        <h1 class="heading">Get insights that help your business grow.</h1>
-        <p>
+  <body
+    class="flex max-lg:flex-col flex-1 justify-center items-center max-md:p-5"
+  >
+    <div
+      class="stats bg-stats-cardBg rounded-xl flex font-inter max-md:flex-col-reverse"
+    >
+      <div
+        class="stats__content max-lg:flex max-lg:flex-col max-lg:justify-center"
+      >
+        <h1 class="heading text-stats-white font-bold">
+          Get <span class="text-stats-voilet">insights</span> that help your
+          business grow.
+        </h1>
+        <p class="text-stats-white1 para mb-20 max-lg:mb-10">
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </p>
+        <div class="stats__txt text-stats-white flex">
+          <div class="txt_box">
+            <div class="num mb-1 max-md:text-xl md:text-2xl font-bold">
+              10k+
+            </div>
+            <div
+              class="attr max-md:text-xs md:text-sm tracking-wider text-stats-white2 uppercase font-lexendDeca"
+            >
+              companies
+            </div>
+          </div>
+          <div class="txt_box">
+            <div class="num mb-1 max-md:text-xl md:text-2xl font-bold">314</div>
+            <div
+              class="attr max-md:text-xs md:text-sm tracking-wider text-stats-white2 uppercase font-lexendDeca"
+            >
+              templates
+            </div>
+          </div>
+          <div class="txt_box">
+            <div class="num mb-1 max-md:text-xl md:text-2xl font-bold">
+              12M+
+            </div>
+            <div
+              class="attr max-md:text-xs md:text-sm tracking-wider text-stats-white2 uppercase font-lexendDeca"
+            >
+              queries
+            </div>
+          </div>
+        </div>
       </div>
       <div
-        class="stats__img bg-card-image-desktop bg-cover bg-no-repeat bg-center rounded-r-xl bg-stats-cardBg bg-blend-soft-light"
+        class="stats__img bg-card-image-desktop max-md:bg-card-image-mobile bg-cover bg-no-repeat bg-center max-md:rounded-t-xl md:rounded-r-xl bg-stats-cardBg bg-blend-soft-light"
       ></div>
     </div>
-    <!-- 10k+ companies 314 templates 12m+ queries -->
 
     <div
-      class="attribution font-light absolute lg:top-2 text-xs lg:left-32 opacity-20 max-lg:bottom-0 max-lg:left-0"
+      class="attribution font-light absolute lg:bottom-5 text-xs max-lg:bottom-1 text-stats-white2"
     >
       Challenge by
       <a
         href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT"
         target="_blank"
-        class="underline hover:text-voilet"
+        class="underline hover:bg-stats-voilet text-stats-white"
         >Frontend Mentor</a
       >. Coded by
       <a
         href="https://www.frontendmentor.io/profile/akshay63"
         target="_blank"
-        class="underline hover:text-voilet"
+        class="underline hover:bg-stats-voilet text-stats-white"
         >Akshay Meshram</a
       >.
     </div>
