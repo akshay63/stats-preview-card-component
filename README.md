@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-stats-card-component-using-html-css-tailwindcss-HSXReFgyY5](https://www.frontendmentor.io/solutions/responsive-stats-card-component-using-html-css-tailwindcss-HSXReFgyY5)
+- Live Site URL: [https://stats-preview-card-component-rho-two.vercel.app/](https://stats-preview-card-component-rho-two.vercel.app/)
 
 ## My process
 
